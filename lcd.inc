@@ -42,6 +42,12 @@ LCD_DAT MACRO VAL
  CALL DEF_LCD_DAT
  ENDM
  
+LCD_DAT_F MACRO VAL
+ MOVF VAL,0
+ MOVWF LCD_DAT_INPUT
+ CALL DEF_LCD_DAT
+ ENDM
+ 
  ;++++++++++++++++++++++++++++++++++++++++++++++++++++
 DEFINE_LCD_FUNCS MACRO
  LCD_ENABLE:

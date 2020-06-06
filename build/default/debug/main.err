@@ -3,11 +3,13 @@ Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LIB.INC 6 : Found label after column 1. (
 Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LIB.INC 76 : Found label after column 1. (DELAY_S)
 Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\DISPLAY.INC 36 : Found label after column 1. (DISPLAY_F)
 Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\TELA_APP.INC 6 : Found label after column 1. (TELAS_DEF)
-Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\TELA_GAME.INC 17 : Found label after column 1. (DESENHA_PEDRA)
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\TELA_GAME.INC 20 : Found label after column 1. (DESENHA_PEDRA)
 Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 11 : Found label after column 1. (ENTRADA)
-Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 12 : Found label after column 1. (PONTUACAO)
-Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 13 : Found label after column 1. (JOGO_RODANDO)
-Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 14 : Found label after column 1. (TIMER_COUNT)
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 12 : Found label after column 1. (PONTUACAO_U)
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 13 : Found label after column 1. (PONTUACAO_D)
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 14 : Found label after column 1. (JOGO_RODANDO)
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 15 : Found label after column 1. (TIMER_COUNT)
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 16 : Found label after column 1. (TIMER_MOVE_PEDRA)
 Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LIB.INC 7 : Found label after column 1. (CORNIO_DELAY_FT1)
 Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LIB.INC 8 : Found label after column 1. (CORNIO_DELAY_FT2)
 Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LIB.INC 9 : Found label after column 1. (CORNIO_DELAY_FT3)
@@ -17,17 +19,22 @@ Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LCD.INC 28 : Found label after column 1. 
 Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\TELA_GAME.INC 11 : Found label after column 1. (VOANDO)
 Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\TELA_GAME.INC 12 : Found label after column 1. (TEMPO_VOANDO)
 Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\TELA_GAME.INC 13 : Found label after column 1. (CENA_LINHA_4)
-Message[305] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 32 : Using default destination of 1 (file).
-Message[305] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 36 : Using default destination of 1 (file).
-Message[305] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 45 : Using default destination of 1 (file).
-Message[305] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 51 : Using default destination of 1 (file).
-Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LCD.INC 47 : Found label after column 1. (LCD_ENABLE)
-Message[302] F:\PROJECTS\PIC\LCD_LIB.X\LCD.INC 49 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] F:\PROJECTS\PIC\LCD_LIB.X\LCD.INC 50 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LCD.INC 54 : Found label after column 1. (LCD_CLEAR)
-Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LCD.INC 58 : Found label after column 1. (DEF_LCD_CMD)
-Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LCD.INC 71 : Found label after column 1. (DEF_LCD_DAT)
-Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LCD.INC 84 : Found label after column 1. (LCD_INIT)
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\TELA_GAME.INC 14 : Found label after column 1. (CENA_LINHA_4_1)
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\TELA_GAME.INC 15 : Found label after column 1. (TEMP_PT_D)
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\TELA_GAME.INC 16 : Found label after column 1. (TEMP_PT_U)
+Message[305] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 34 : Using default destination of 1 (file).
+Message[305] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 39 : Using default destination of 1 (file).
+Message[305] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 65 : Using default destination of 1 (file).
+Message[305] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 74 : Using default destination of 1 (file).
+Message[305] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 86 : Using default destination of 1 (file).
+Message[305] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 90 : Using default destination of 1 (file).
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LCD.INC 53 : Found label after column 1. (LCD_ENABLE)
+Message[302] F:\PROJECTS\PIC\LCD_LIB.X\LCD.INC 55 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] F:\PROJECTS\PIC\LCD_LIB.X\LCD.INC 56 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LCD.INC 60 : Found label after column 1. (LCD_CLEAR)
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LCD.INC 64 : Found label after column 1. (DEF_LCD_CMD)
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LCD.INC 77 : Found label after column 1. (DEF_LCD_DAT)
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\LCD.INC 90 : Found label after column 1. (LCD_INIT)
 Message[302] F:\PROJECTS\PIC\LCD_LIB.X\INPUT.INC 32 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] F:\PROJECTS\PIC\LCD_LIB.X\INPUT.INC 33 : Register in operand not in bank 0.  Ensure that bank bits are correct.
 Message[302] F:\PROJECTS\PIC\LCD_LIB.X\INPUT.INC 35 : Register in operand not in bank 0.  Ensure that bank bits are correct.
@@ -81,11 +88,13 @@ Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\DISPLAY.INC 101 : Found label after colum
 Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\DISPLAY.INC 104 : Found label after column 1. (CORNIO_DRAW_1)
 Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\DISPLAY.INC 107 : Found label after column 1. (CORNIO_DRAW_0)
 Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\DISPLAY.INC 110 : Found label after column 1. (CORNIO_DISPLAY_F_DEF_EXIT)
-Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\TELA_GAME.INC 34 : Found label after column 1. (PLAYER_ON_3)
-Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\TELA_GAME.INC 65 : Found label after column 1. (PLAYER_ON_4)
-Message[302] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 65 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 66 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 67 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 68 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 69 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 71 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[305] F:\PROJECTS\PIC\LCD_LIB.X\TELA_GAME.INC 37 : Using default destination of 1 (file).
+Message[305] F:\PROJECTS\PIC\LCD_LIB.X\TELA_GAME.INC 38 : Using default destination of 1 (file).
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\TELA_GAME.INC 53 : Found label after column 1. (PLAYER_ON_3)
+Warning[207] F:\PROJECTS\PIC\LCD_LIB.X\TELA_GAME.INC 84 : Found label after column 1. (PLAYER_ON_4)
+Message[302] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 106 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 107 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 108 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 109 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 110 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] F:\PROJECTS\PIC\LCD_LIB.X\MAIN.ASM 112 : Register in operand not in bank 0.  Ensure that bank bits are correct.
