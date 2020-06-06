@@ -1,0 +1,92 @@
+#IFNDEF TELA_GAME_HEADER
+#DEFINE TELA_GAME_HEADER
+    
+#DEFINE H +1
+#DEFINE L 
+
+#INCLUDE "lib.inc"    
+#INCLUDE "lcd.inc" 
+    
+TELA_GAME_VARS MACRO
+  VOANDO	    RES	1
+  TEMPO_VOANDO	    RES 1
+  CENA_LINHA_4	    RES 2
+  CENA_LINHA_3	    RES 2
+  ENDM
+
+TELA_GAME_DEFINE_FUNCS MACRO
+ 
+ TELA_GAME:
+    CALL LCD_ENABLE
+    ;LCD_CMD L_CLR
+    CMPFL VOANDO,1
+    JNE  PLAYER_ON_4
+    
+ PLAYER_ON_3:
+	LCD_CMD L_L3	;LINHA 3
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT 'R'
+	
+	
+	LCD_CMD L_L4	;LINHA 4
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	GOTO END_PLAYER_DRAW
+ PLAYER_ON_4:
+	LCD_CMD L_L3	;LINHA 3
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	
+        LCD_CMD L_L4	
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT 'R'
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	LCD_DAT ' '
+	GOTO END_PLAYER_DRAW
+	
+END_PLAYER_DRAW:
+    RETURN
+ 
+ ENDM
+    
+#ENDIF
+
+
