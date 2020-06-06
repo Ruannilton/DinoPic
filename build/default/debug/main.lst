@@ -1,4 +1,4 @@
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE  1
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE  1
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -57,7 +57,7 @@ Warning[207]: Found label after column 1. (LIB_VARS)
                       00023 BANK2 MACRO
                       00024  BSF STATUS, RP1
                       00025  BCF STATUS, RP0
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE  2
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE  2
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -116,7 +116,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 Warning[207]: Found label after column 1. (DELAY_S)
                       00076  DELAY_S MACRO T            ; DELAY IN MS
                       00077     MOVLW D'165' 
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE  3
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE  3
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -175,7 +175,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00030  
                       00031 ;++++++++++++++++++++++++++++++++++++++++++++++++++++
                       00032 LCD_CMD MACRO VAL
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE  4
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE  4
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -234,7 +234,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00083  
                       00084  LCD_INIT:
                       00085     CALL LCD_ENABLE
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE  5
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE  5
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -293,7 +293,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00128  ENDM
                       00129 
                       00130 BANK3 MACRO
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE  6
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE  6
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -352,7 +352,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00181     
                       00182     MOVLW D'255' 
                       00183     MOVWF CORNIO_DELAY_FT2
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE  7
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE  7
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -411,7 +411,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00034     MOVLW B'00001111'
                       00035     MOVWF TRISD
                       00036     BANK0
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE  8
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE  8
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -470,7 +470,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00087     BTFSS TRISD, RD3
                       00088     GOTO CORNIO_MOV2            ;2
                       00089     CALL CORNIO_INPUT_DELAY
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE  9
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE  9
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -529,7 +529,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00140     CALL CORNIO_INPUT_DELAY
                       00141 
                       00142     BTFSS TRISD, RD3
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 10
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 10
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -588,7 +588,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00193     MOVWF CORNIO_INPUT_VAL
                       00194     GOTO CORNIO_EXIT
                       00195 CORNIO_MOV_HASH:
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 11
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 11
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -647,7 +647,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00246     
                       00247 #ENDIF
                       00248 
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 12
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 12
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -706,7 +706,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00248  MOVF FILE1,W
                       00249  MOVWF FILE2
                       00250  ENDM
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 13
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 13
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -765,7 +765,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00301  ENDM
                       00302  
                       00303  
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 14
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 14
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -824,7 +824,7 @@ Warning[207]: Found label after column 1. (DISPLAY_F)
                       00051         CLRF    TRISA
                       00052         BANK0
                       00053         CLRF PORTB 
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 15
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 15
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -883,7 +883,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00104  CORNIO_DRAW_1:
                       00105         CORNIO_DISPLAY CORNIO_DISPLAY_TO_DRAW_DISP,SHOW_1
                       00106         GOTO CORNIO_DISPLAY_F_DEF_EXIT
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 16
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 16
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -942,7 +942,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00340  MOVF FILE,W
                       00341  SUBLW LITERAL
                       00342  ENDM
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 17
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 17
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -1001,7 +1001,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00393     MOVWF CORNIO_DELAY_FT4
                       00394     
                       00395     DECFSZ CORNIO_DELAY_FT1,1 
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 18
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 18
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -1060,7 +1060,7 @@ Warning[207]: Found label after column 1. (TELAS_DEF)
                       00040         LCD_DAT 'E'     ;DESENHA E
                       00041         LCD_DAT 'D'     ;DESENHA D
                       00042         LCD_DAT 'O'     ;DESENHA O
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 19
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 19
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -1119,7 +1119,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00092         LCD_DAT D'42'
                       00093         LCD_DAT D'42'
                       00094         LCD_DAT D'42'
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 20
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 20
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -1178,7 +1178,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00145         LCD_DAT D'42'
                       00146         LCD_DAT D'42'
                       00147         LCD_DAT D'42'
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 21
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 21
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -1237,7 +1237,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00433  BCF STATUS, RP0
                       00434  ENDM
                       00435 
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 22
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 22
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -1296,7 +1296,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00486     MOVWF CORNIO_DELAY_FT1 
                       00487     
                       00488     MOVLW D'255' 
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 23
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 23
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -1355,7 +1355,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00133  LCD_DAT_INPUT   RES           1  
                       00134  ENDM
                       00135  
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 24
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 24
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -1414,7 +1414,7 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00186     BSF PORTE,LENA              ; LENA = 1;
                       00187     RETURN
                       00188  
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 25
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 25
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -1447,65 +1447,66 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00011   VOANDO            RES 1
                       00012   TEMPO_VOANDO      RES 1
                       00013   CENA_LINHA_4      RES 2
-                      00014   CENA_LINHA_3      RES 2
-                      00015   ENDM
+                      00014   ENDM
+                      00015 
                       00016 
-                      00017 TELA_GAME_DEFINE_FUNCS MACRO
-                      00018  
-                      00019  TELA_GAME:
-                      00020     CALL LCD_ENABLE
-                      00021     ;LCD_CMD L_CLR
-                      00022     CMPFL VOANDO,1
-                      00023     JNE  PLAYER_ON_4
-                      00024     
-                      00025  PLAYER_ON_3:
-                      00026         LCD_CMD L_L3    ;LINHA 3
-                      00027         LCD_DAT ' '
-                      00028         LCD_DAT ' '
-                      00029         LCD_DAT ' '
-                      00030         LCD_DAT ' '
-                      00031         LCD_DAT ' '
-                      00032         LCD_DAT ' '
-                      00033         LCD_DAT ' '
-                      00034         LCD_DAT 'R'
-                      00035         
-                      00036         
-                      00037         LCD_CMD L_L4    ;LINHA 4
+Warning[207]: Found label after column 1. (DESENHA_PEDRA)
+                      00017   DESENHA_PEDRA MACRO FILE,BIT
+                      00018     BTFSS FILE,BIT
+                      00019     GOTO $+2
+                      00020     GOTO $+5
+                      00021     LCD_DAT ' '
+                      00022     GOTO $+4
+                      00023     LCD_DAT '@'
+                      00024     NOP
+                      00025     ENDM
+                      00026   
+                      00027 TELA_GAME_DEFINE_FUNCS MACRO
+                      00028  
+                      00029 TELA_GAME:
+                      00030     CALL LCD_ENABLE
+                      00031     CMPFL VOANDO,1
+                      00032     JNE  PLAYER_ON_4
+                      00033   
+                      00034  PLAYER_ON_3:
+                      00035         LCD_CMD L_L3    ;LINHA 3
+                      00036         LCD_DAT ' '
+                      00037         LCD_DAT ' '
                       00038         LCD_DAT ' '
-                      00039         LCD_DAT ' '
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 26
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 26
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
   VALUE
 
+                      00039         LCD_DAT ' '
                       00040         LCD_DAT ' '
                       00041         LCD_DAT ' '
                       00042         LCD_DAT ' '
-                      00043         LCD_DAT ' '
-                      00044         LCD_DAT ' '
-                      00045         LCD_DAT ' '
-                      00046         LCD_DAT ' '
-                      00047         LCD_DAT ' '
-                      00048         LCD_DAT ' '
-                      00049         LCD_DAT ' '
-                      00050         LCD_DAT ' '
-                      00051         LCD_DAT ' '
-                      00052         LCD_DAT ' '
-                      00053         LCD_DAT ' '
-                      00054         GOTO END_PLAYER_DRAW
-                      00055  PLAYER_ON_4:
-                      00056         LCD_CMD L_L3    ;LINHA 3
-                      00057         LCD_DAT ' '
-                      00058         LCD_DAT ' '
-                      00059         LCD_DAT ' '
-                      00060         LCD_DAT ' '
-                      00061         LCD_DAT ' '
-                      00062         LCD_DAT ' '
-                      00063         LCD_DAT ' '
-                      00064         LCD_DAT ' '
-                      00065         
-                      00066         LCD_CMD L_L4    
+                      00043         LCD_DAT 'R'
+                      00044         
+                      00045         
+                      00046         LCD_CMD L_L4    ;LINHA 4
+                      00047         DESENHA_PEDRA CENA_LINHA_4+1,7
+                      00048         DESENHA_PEDRA CENA_LINHA_4+1,6
+                      00049         DESENHA_PEDRA CENA_LINHA_4+1,5
+                      00050         DESENHA_PEDRA CENA_LINHA_4+1,4
+                      00051         DESENHA_PEDRA CENA_LINHA_4+1,3
+                      00052         DESENHA_PEDRA CENA_LINHA_4+1,2
+                      00053         DESENHA_PEDRA CENA_LINHA_4+1,1
+                      00054         DESENHA_PEDRA CENA_LINHA_4+1,0
+                      00055         DESENHA_PEDRA CENA_LINHA_4,7
+                      00056         DESENHA_PEDRA CENA_LINHA_4,6
+                      00057         DESENHA_PEDRA CENA_LINHA_4,5
+                      00058         DESENHA_PEDRA CENA_LINHA_4,4
+                      00059         DESENHA_PEDRA CENA_LINHA_4,3
+                      00060         DESENHA_PEDRA CENA_LINHA_4,2
+                      00061         DESENHA_PEDRA CENA_LINHA_4,1
+                      00062         DESENHA_PEDRA CENA_LINHA_4,0
+                      00063         
+                      00064         GOTO END_PLAYER_DRAW
+                      00065  PLAYER_ON_4:
+                      00066         LCD_CMD L_L3    ;LINHA 3
                       00067         LCD_DAT ' '
                       00068         LCD_DAT ' '
                       00069         LCD_DAT ' '
@@ -1513,31 +1514,41 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                       00071         LCD_DAT ' '
                       00072         LCD_DAT ' '
                       00073         LCD_DAT ' '
-                      00074         LCD_DAT 'R'
-                      00075         LCD_DAT ' '
-                      00076         LCD_DAT ' '
-                      00077         LCD_DAT ' '
-                      00078         LCD_DAT ' '
-                      00079         LCD_DAT ' '
-                      00080         LCD_DAT ' '
-                      00081         LCD_DAT ' '
-                      00082         LCD_DAT ' '
-                      00083         GOTO END_PLAYER_DRAW
-                      00084         
-                      00085 END_PLAYER_DRAW:
-                      00086     RETURN
-                      00087  
-                      00088  ENDM
-                      00089     
-                      00090 #ENDIF
-                      00091 
-                      00092 
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 27
+                      00074         LCD_DAT ' '
+                      00075         
+                      00076         LCD_CMD L_L4
+                      00077         DESENHA_PEDRA CENA_LINHA_4+1,7
+                      00078         DESENHA_PEDRA CENA_LINHA_4+1,6
+                      00079         DESENHA_PEDRA CENA_LINHA_4+1,5
+                      00080         DESENHA_PEDRA CENA_LINHA_4+1,4
+                      00081         DESENHA_PEDRA CENA_LINHA_4+1,3
+                      00082         DESENHA_PEDRA CENA_LINHA_4+1,2
+                      00083         DESENHA_PEDRA CENA_LINHA_4+1,1
+                      00084         LCD_DAT 'R'
+                      00085         DESENHA_PEDRA CENA_LINHA_4+1,7
+                      00086         DESENHA_PEDRA CENA_LINHA_4,6
+                      00087         DESENHA_PEDRA CENA_LINHA_4,5
+                      00088         DESENHA_PEDRA CENA_LINHA_4,4
+                      00089         DESENHA_PEDRA CENA_LINHA_4,3
+                      00090         DESENHA_PEDRA CENA_LINHA_4,2
+                      00091         DESENHA_PEDRA CENA_LINHA_4,1
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 27
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
   VALUE
 
+                      00092         DESENHA_PEDRA CENA_LINHA_4,0
+                      00093         GOTO END_PLAYER_DRAW
+                      00094         
+                      00095 END_PLAYER_DRAW:
+                      00096     RETURN
+                      00097  
+                      00098  ENDM
+                      00099     
+                      00100 #ENDIF
+                      00101 
+                      00102 
                       00007     
 2007   3F3B           00008  __CONFIG _FOSC_EXTRC & _WDTE_OFF & _PWRTE_OFF & _BOREN_OFF & _LVP_OFF & _CPD_OFF & _WRT_OFF & _CP_OFF
                       00009 
@@ -1576,12 +1587,16 @@ Warning[207]: Found label after column 1. (TEMPO_VOANDO)
 000F                      M   TEMPO_VOANDO      RES 1
 Warning[207]: Found label after column 1. (CENA_LINHA_4)
 0010                      M   CENA_LINHA_4      RES 2
-Warning[207]: Found label after column 1. (CENA_LINHA_3)
-0012                      M   CENA_LINHA_3      RES 2
                       00019 
                       00020 
                       00021 RES_VECT  CODE    0x0000            
 0000   2???           00022     GOTO    START                   
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 28
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
                       00023 
                       00024 ISR CODE 0X0004    
 0004   190B           00025  BTFSC INTCON, TMR0IF   ;INTERRUPÇÃO DE TEMPO
@@ -1591,12 +1606,6 @@ Warning[207]: Found label after column 1. (CENA_LINHA_3)
 0007                  00029 TIMER_INT:
 0007   110B           00030    BCF INTCON, TMR0IF
 0008   307E           00031    MOVLW D'126'
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 28
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 Message[305]: Using default destination of 1 (file).
 0009   0881           00032    MOVF TMR0
                       00033   
@@ -1641,6 +1650,12 @@ Message[305]: Using default destination of 1 (file).
 0000                  00056 DEFINE_FUNCS:                                                                   ; DECLARA AS FUNÇÕES DAS
                              BIBLIOTECAS
                       00057  DEFINE_LCD_FUNCS                                                               
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 29
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 Warning[207]: Found label after column 1. (LCD_ENABLE)
 0000                      M  LCD_ENABLE:
                           M  BANK1
@@ -1650,12 +1665,6 @@ Message[302]: Register in operand not in bank 0.  Ensure that bank bits are corr
 0002   0188               M  CLRF TRISD
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
 0003   0189               M  CLRF TRISE
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 29
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
                           M  BANK0
 0004   1303               M  BCF STATUS, RP1
 0005   1283               M  BCF STATUS, RP0
@@ -1700,6 +1709,12 @@ Warning[207]: Found label after column 1. (DEF_LCD_CMD)
 001D   2???               M     GOTO $-1 
 001E   0B??               M     DECFSZ CORNIO_DELAY_FT2,1
 001F   2???               M     GOTO $-3
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 30
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 0020   1489               M     BSF PORTE,LENA              ; LENA = 1;
 0021   0008               M     RETURN
                           M  
@@ -1709,12 +1724,6 @@ Warning[207]: Found label after column 1. (DEF_LCD_DAT)
                           M     
 0023   08??               M     MOVF LCD_DAT_INPUT,0        ; lcd_wr(val);
 0024   0088               M     MOVWF LPORT                 ;
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 30
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
                           M     
 0025   1509               M     BSF PORTE,LDAT              ; LDAT = 1;
                           M     DELAY_MS D'3'               ; atraso_ms(3);
@@ -1759,6 +1768,12 @@ Warning[207]: Found label after column 1. (LCD_INIT)
 0041   2???               M     GOTO $-1 
 0042   0B??               M     DECFSZ CORNIO_DELAY_FT2,1
 0043   2???               M     GOTO $-3
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 31
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 0044   1489               M     BSF PORTE,LENA              ; LENA = 1;
                           M     
                           M     LCD_CMD L_CFG               ; lcd_cmd(L_CFG);
@@ -1768,12 +1783,6 @@ Warning[207]: Found label after column 1. (LCD_INIT)
                           M     DELAY_MS D'5'               ; atraso_ms(5);
 0048   30A5               M     MOVLW D'165' 
 0049   00??               M     MOVWF CORNIO_DELAY_FT1 
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 31
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
                           M     
 004A   3005               M     MOVLW D'5' 
 004B   00??               M     MOVWF CORNIO_DELAY_FT2
@@ -1818,6 +1827,12 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 0068   00??               M  MOVWF LCD_CMD_INPUT
 0069   2???               M  CALL DEF_LCD_CMD
                           M     LCD_CMD L_L1                ; lcd_cmd(L_L1);
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 32
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 006A   3080               M  MOVLW L_L1
 006B   00??               M  MOVWF LCD_CMD_INPUT
 006C   2???               M  CALL DEF_LCD_CMD
@@ -1827,12 +1842,6 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
                           M #IFNDEF CORNIO_INPUT_FUNC_DEF
                           M #DEFINE CORNIO_INPUT_FUNC_DEF
                           M 
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 32
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
                           M 
 006E                      M ENABLE_KEYBOARD:
                           M     BANK1
@@ -1877,6 +1886,12 @@ Warning[207]: Found label after column 1. (CORNIO_INPUT_LOOP_INI)
 0086   00??               M     MOVWF ENTRADA
                           M     
 0087   1006               M     BCF PORTB, RB0
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 33
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
 0088   1C08               M     BTFSS TRISD, RD0
 0089   2???               M     GOTO CORNIO_MOV_ASTER       ; *
@@ -1886,12 +1901,6 @@ Message[302]: Register in operand not in bank 0.  Ensure that bank bits are corr
 008B   1C88               M     BTFSS TRISD, RD1
 008C   2???               M     GOTO CORNIO_MOV7            ; 7
 008D   2???               M     CALL CORNIO_INPUT_DELAY
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 33
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
                           M 
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
 008E   1D08               M     BTFSS TRISD, RD2
@@ -1936,6 +1945,12 @@ Message[302]: Register in operand not in bank 0.  Ensure that bank bits are corr
                           M         
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
 00A7   1D88               M     BTFSS TRISD, RD3
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 34
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 00A8   2???               M     GOTO CORNIO_MOV3            ;3
 00A9   2???               M     CALL CORNIO_INPUT_DELAY
                           M         
@@ -1945,12 +1960,6 @@ Message[302]: Register in operand not in bank 0.  Ensure that bank bits are corr
 00AC   2???               M     CALL CORNIO_INPUT_DELAY
                           M         
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 34
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 00AD   1C88               M     BTFSS TRISD, RD1
 00AE   2???               M     GOTO CORNIO_MOV9            ;9
 00AF   2???               M     CALL CORNIO_INPUT_DELAY
@@ -1995,6 +2004,12 @@ Message[302]: Register in operand not in bank 0.  Ensure that bank bits are corr
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
 00C6   1D08               M     BTFSS TRISD, RD2
 00C7   2???               M     GOTO CORNIO_MOV4            ; 4
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 35
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 00C8   2???               M     CALL CORNIO_INPUT_DELAY
                           M 
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
@@ -2004,12 +2019,6 @@ Message[302]: Register in operand not in bank 0.  Ensure that bank bits are corr
                           M     
 00CC   1406               M     BSF PORTB, RB0
                           M     
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 35
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 00CD   1086               M     BCF PORTB, RB1
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
 00CE   1C08               M     BTFSS TRISD, RD0
@@ -2054,6 +2063,12 @@ Message[302]: Register in operand not in bank 0.  Ensure that bank bits are corr
 00E6   2???               M     GOTO CORNIO_MOV9            ;9
 00E7   2???               M     CALL CORNIO_INPUT_DELAY
                           M     
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 36
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 00E8   1506               M     BSF PORTB, RB2
 00E9   2???               M     GOTO CORNIO_EXIT
                           M     
@@ -2063,12 +2078,6 @@ Message[302]: Register in operand not in bank 0.  Ensure that bank bits are corr
 00EB   00??               M     MOVWF CORNIO_DELAY_FT1 
                           M     
 00EC   3002               M     MOVLW D'2' 
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 36
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 00ED   00??               M     MOVWF CORNIO_DELAY_FT2
                           M     
 00EE   0B??               M     DECFSZ CORNIO_DELAY_FT1,1 
@@ -2113,6 +2122,12 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 010B   3006               M     MOVLW KEY_6
 010C   00??               M     MOVWF ENTRADA
 010D   2???               M     GOTO CORNIO_EXIT
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 37
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 010E                      M CORNIO_MOV7:
 010E   3007               M     MOVLW KEY_7
 010F   00??               M     MOVWF ENTRADA
@@ -2122,12 +2137,6 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 0112   00??               M     MOVWF ENTRADA
 0113   2???               M     GOTO CORNIO_EXIT
 0114                      M CORNIO_MOV9:
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 37
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 0114   3009               M     MOVLW KEY_9
 0115   00??               M     MOVWF ENTRADA
 0116   2???               M     GOTO CORNIO_EXIT
@@ -2172,6 +2181,12 @@ Warning[207]: Found label after column 1. (TELA_AP)
 012D   302A               M  MOVLW D'42'
 012E   00??               M  MOVWF LCD_DAT_INPUT
 012F   2???               M  CALL DEF_LCD_DAT
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 38
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
                           M         LCD_DAT D'42'
 0130   302A               M  MOVLW D'42'
 0131   00??               M  MOVWF LCD_DAT_INPUT
@@ -2181,12 +2196,6 @@ Warning[207]: Found label after column 1. (TELA_AP)
 0134   00??               M  MOVWF LCD_DAT_INPUT
 0135   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT D'42'
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 38
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 0136   302A               M  MOVLW D'42'
 0137   00??               M  MOVWF LCD_DAT_INPUT
 0138   2???               M  CALL DEF_LCD_DAT
@@ -2231,6 +2240,12 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 0155   00??               M  MOVWF LCD_DAT_INPUT
 0156   2???               M  CALL DEF_LCD_DAT
                           M         
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 39
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
                           M         LCD_CMD L_L3    ;LINHA 4
 0157   3090               M  MOVLW L_L3
 0158   00??               M  MOVWF LCD_CMD_INPUT
@@ -2240,12 +2255,6 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 015B   00??               M  MOVWF LCD_DAT_INPUT
 015C   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT ' '     ;DESENHA ' '
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 39
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 015D   3020               M  MOVLW ' '
 015E   00??               M  MOVWF LCD_DAT_INPUT
 015F   2???               M  CALL DEF_LCD_DAT
@@ -2290,6 +2299,12 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 017C   00??               M  MOVWF LCD_DAT_INPUT
 017D   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT 'D'     ;DESENHA D
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 40
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 017E   3044               M  MOVLW 'D'
 017F   00??               M  MOVWF LCD_DAT_INPUT
 0180   2???               M  CALL DEF_LCD_DAT
@@ -2299,12 +2314,6 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 0183   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT ' '     ;DESENHA ' '
 0184   3020               M  MOVLW ' '
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 40
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 0185   00??               M  MOVWF LCD_DAT_INPUT
 0186   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT '*'     ;DESENHA *
@@ -2349,6 +2358,12 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 01A3   00??               M  MOVWF LCD_DAT_INPUT
 01A4   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT ' '     ;DESENHA ' '
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 41
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 01A5   3020               M  MOVLW ' '
 01A6   00??               M  MOVWF LCD_DAT_INPUT
 01A7   2???               M  CALL DEF_LCD_DAT
@@ -2358,12 +2373,6 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 01AA   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT 'I'     ;DESENHA I
 01AB   3049               M  MOVLW 'I'
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 41
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 01AC   00??               M  MOVWF LCD_DAT_INPUT
 01AD   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT 'L'     ;DESENHA L
@@ -2408,6 +2417,12 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 01CA   00??               M  MOVWF LCD_DAT_INPUT
 01CB   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT D'42'
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 42
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 01CC   302A               M  MOVLW D'42'
 01CD   00??               M  MOVWF LCD_DAT_INPUT
 01CE   2???               M  CALL DEF_LCD_DAT
@@ -2417,12 +2432,6 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 01D1   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT D'42'
 01D2   302A               M  MOVLW D'42'
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 42
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 01D3   00??               M  MOVWF LCD_DAT_INPUT
 01D4   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT D'42'
@@ -2467,6 +2476,12 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 Warning[207]: Found label after column 1. (TELA_INSTRUCOES)
 01F1                      M     TELA_INSTRUCOES:                                                            ; EXIBE INSTRUÇÕES DO JO
                             GO
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 43
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 01F1   2???               M         CALL LCD_ENABLE
                           M         LCD_CMD L_CLR
 01F2   3001               M  MOVLW L_CLR
@@ -2476,12 +2491,6 @@ Warning[207]: Found label after column 1. (TELA_INSTRUCOES)
 01F5   3080               M  MOVLW L_L1
 01F6   00??               M  MOVWF LCD_CMD_INPUT
 01F7   2???               M  CALL DEF_LCD_CMD
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 43
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
                           M         LCD_DAT D'42'
 01F8   302A               M  MOVLW D'42'
 01F9   00??               M  MOVWF LCD_DAT_INPUT
@@ -2526,6 +2535,12 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 0216   302A               M  MOVLW D'42'
 0217   00??               M  MOVWF LCD_DAT_INPUT
 0218   2???               M  CALL DEF_LCD_DAT
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 44
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
                           M         LCD_DAT D'42'
 0219   302A               M  MOVLW D'42'
 021A   00??               M  MOVWF LCD_DAT_INPUT
@@ -2535,12 +2550,6 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 021D   00??               M  MOVWF LCD_DAT_INPUT
 021E   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT D'42'
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 44
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 021F   302A               M  MOVLW D'42'
 0220   00??               M  MOVWF LCD_DAT_INPUT
 0221   2???               M  CALL DEF_LCD_DAT
@@ -2585,6 +2594,12 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 023D   3045               M  MOVLW 'E'
 023E   00??               M  MOVWF LCD_DAT_INPUT
 023F   2???               M  CALL DEF_LCD_DAT
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 45
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
                           M         LCD_DAT 'R'     ;DESENHA N
 0240   3052               M  MOVLW 'R'
 0241   00??               M  MOVWF LCD_DAT_INPUT
@@ -2594,12 +2609,6 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 0244   00??               M  MOVWF LCD_DAT_INPUT
 0245   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT 'E'     ;DESENHA A
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 45
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 0246   3045               M  MOVLW 'E'
 0247   00??               M  MOVWF LCD_DAT_INPUT
 0248   2???               M  CALL DEF_LCD_DAT
@@ -2644,6 +2653,12 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 0264   3020               M  MOVLW ' '
 0265   00??               M  MOVWF LCD_DAT_INPUT
 0266   2???               M  CALL DEF_LCD_DAT
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 46
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
                           M         LCD_DAT 'P'     ;DESENHA R
 0267   3050               M  MOVLW 'P'
 0268   00??               M  MOVWF LCD_DAT_INPUT
@@ -2653,12 +2668,6 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 026B   00??               M  MOVWF LCD_DAT_INPUT
 026C   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT 'R'     ;DESENHA A
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 46
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 026D   3052               M  MOVLW 'R'
 026E   00??               M  MOVWF LCD_DAT_INPUT
 026F   2???               M  CALL DEF_LCD_DAT
@@ -2703,6 +2712,12 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 028C   00??               M  MOVWF LCD_DAT_INPUT
 028D   2???               M  CALL DEF_LCD_DAT
                           M         
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 47
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
                           M         LCD_CMD L_L4    ;LINHA 4
 028E   30D0               M  MOVLW L_L4
 028F   00??               M  MOVWF LCD_CMD_INPUT
@@ -2712,12 +2727,6 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 0292   00??               M  MOVWF LCD_DAT_INPUT
 0293   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT D'42'
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 47
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 0294   302A               M  MOVLW D'42'
 0295   00??               M  MOVWF LCD_DAT_INPUT
 0296   2???               M  CALL DEF_LCD_DAT
@@ -2762,6 +2771,12 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 02B3   00??               M  MOVWF LCD_DAT_INPUT
 02B4   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT D'42'
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 48
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 02B5   302A               M  MOVLW D'42'
 02B6   00??               M  MOVWF LCD_DAT_INPUT
 02B7   2???               M  CALL DEF_LCD_DAT
@@ -2771,12 +2786,6 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 02BA   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT D'42'
 02BB   302A               M  MOVLW D'42'
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 48
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 02BC   00??               M  MOVWF LCD_DAT_INPUT
 02BD   2???               M  CALL DEF_LCD_DAT
                           M         LCD_DAT D'42'
@@ -2821,6 +2830,12 @@ Warning[207]: Found label after column 1. (CORNIO_DISPLAY_F_DEF)
 02D2   3C08               M  SUBLW D'8'
                           M         JE CORNIO_DRAW_8
 02D3   1903               M  BTFSC STATUS, Z
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 49
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 02D4   2???               M  GOTO CORNIO_DRAW_8
                           M         CMPFL CORNIO_DISPLAY_TO_DRAW_VALUE,D'7'
 02D5   08??               M  MOVF CORNIO_DISPLAY_TO_DRAW_VALUE,W
@@ -2830,12 +2845,6 @@ Warning[207]: Found label after column 1. (CORNIO_DISPLAY_F_DEF)
 02D8   2???               M  GOTO CORNIO_DRAW_7
                           M         CMPFL CORNIO_DISPLAY_TO_DRAW_VALUE,D'6'
 02D9   08??               M  MOVF CORNIO_DISPLAY_TO_DRAW_VALUE,W
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 49
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 02DA   3C06               M  SUBLW D'6'
                           M         JE CORNIO_DRAW_6
 02DB   1903               M  BTFSC STATUS, Z
@@ -2880,6 +2889,12 @@ LOC  OBJECT CODE     LINE SOURCE TEXT
 02F5   2???               M         GOTO CORNIO_DISPLAY_F_DEF_EXIT
 Warning[207]: Found label after column 1. (CORNIO_DRAW_9)
 02F6                      M  CORNIO_DRAW_9:
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 50
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
                           M         CORNIO_DISPLAY CORNIO_DISPLAY_TO_DRAW_DISP,SHOW_9
                           M     MOVFF CORNIO_DISPLAY_TO_DRAW_DISP,PORTA 
 02F6   08??               M  MOVF CORNIO_DISPLAY_TO_DRAW_DISP,W
@@ -2889,12 +2904,6 @@ Warning[207]: Found label after column 1. (CORNIO_DRAW_9)
 02F9   0088               M  MOVWF PORTD
                           M     DELAY_MS D'2'
 02FA   30A5               M     MOVLW D'165' 
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 50
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 02FB   00??               M     MOVWF CORNIO_DELAY_FT1 
                           M     
 02FC   3002               M     MOVLW D'2' 
@@ -2939,6 +2948,12 @@ Warning[207]: Found label after column 1. (CORNIO_DRAW_7)
 0314   30A5               M     MOVLW D'165' 
 0315   00??               M     MOVWF CORNIO_DELAY_FT1 
                           M     
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 51
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 0316   3002               M     MOVLW D'2' 
 0317   00??               M     MOVWF CORNIO_DELAY_FT2
                           M     
@@ -2948,12 +2963,6 @@ Warning[207]: Found label after column 1. (CORNIO_DRAW_7)
 031B   2???               M     GOTO $-3
 031C   2???               M         GOTO CORNIO_DISPLAY_F_DEF_EXIT
 Warning[207]: Found label after column 1. (CORNIO_DRAW_6)
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 51
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
 031D                      M  CORNIO_DRAW_6:
                           M         CORNIO_DISPLAY CORNIO_DISPLAY_TO_DRAW_DISP,SHOW_6
                           M     MOVFF CORNIO_DISPLAY_TO_DRAW_DISP,PORTA 
@@ -2998,6 +3007,12 @@ Warning[207]: Found label after column 1. (CORNIO_DRAW_5)
 Warning[207]: Found label after column 1. (CORNIO_DRAW_4)
 0337                      M  CORNIO_DRAW_4:
                           M         CORNIO_DISPLAY CORNIO_DISPLAY_TO_DRAW_DISP,SHOW_4
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 52
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
                           M     MOVFF CORNIO_DISPLAY_TO_DRAW_DISP,PORTA 
 0337   08??               M  MOVF CORNIO_DISPLAY_TO_DRAW_DISP,W
 0338   0085               M  MOVWF PORTA
@@ -3007,12 +3022,6 @@ Warning[207]: Found label after column 1. (CORNIO_DRAW_4)
                           M     DELAY_MS D'2'
 033B   30A5               M     MOVLW D'165' 
 033C   00??               M     MOVWF CORNIO_DELAY_FT1 
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 52
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
                           M     
 033D   3002               M     MOVLW D'2' 
 033E   00??               M     MOVWF CORNIO_DELAY_FT2
@@ -3057,6 +3066,12 @@ Warning[207]: Found label after column 1. (CORNIO_DRAW_2)
 0356   00??               M     MOVWF CORNIO_DELAY_FT1 
                           M     
 0357   3002               M     MOVLW D'2' 
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 53
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
 0358   00??               M     MOVWF CORNIO_DELAY_FT2
                           M     
 0359   0B??               M     DECFSZ CORNIO_DELAY_FT1,1 
@@ -3066,12 +3081,6 @@ Warning[207]: Found label after column 1. (CORNIO_DRAW_2)
 035D   2???               M         GOTO CORNIO_DISPLAY_F_DEF_EXIT
 Warning[207]: Found label after column 1. (CORNIO_DRAW_1)
 035E                      M  CORNIO_DRAW_1:
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 53
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
                           M         CORNIO_DISPLAY CORNIO_DISPLAY_TO_DRAW_DISP,SHOW_1
                           M     MOVFF CORNIO_DISPLAY_TO_DRAW_DISP,PORTA 
 035E   08??               M  MOVF CORNIO_DISPLAY_TO_DRAW_DISP,W
@@ -3116,27 +3125,25 @@ Warning[207]: Found label after column 1. (CORNIO_DISPLAY_F_DEF_EXIT)
 0378                      M  CORNIO_DISPLAY_F_DEF_EXIT:
 0378   0008               M     RETURN
                           M     
-                          M     
-                          M     #ENDIF
-                      00061  TELA_GAME_DEFINE_FUNCS
-                          M  
-Warning[207]: Found label after column 1. (TELA_GAME)
-0379                      M  TELA_GAME:
-0379   2???               M     CALL LCD_ENABLE
-                          M     ;LCD_CMD L_CLR
-                          M     CMPFL VOANDO,1
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 54
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 54
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
   VALUE
 
+                          M     
+                          M     #ENDIF
+                      00061  TELA_GAME_DEFINE_FUNCS
+                          M  
+0379                      M TELA_GAME:
+0379   2???               M     CALL LCD_ENABLE
+                          M     CMPFL VOANDO,1
 037A   08??               M  MOVF VOANDO,W
 037B   3C01               M  SUBLW 1
                           M     JNE  PLAYER_ON_4
 037C   1D03               M  BTFSS STATUS, Z
 037D   2???               M  GOTO PLAYER_ON_4
-                          M     
+                          M   
 Warning[207]: Found label after column 1. (PLAYER_ON_3)
 037E                      M  PLAYER_ON_3:
                           M         LCD_CMD L_L3    ;LINHA 3
@@ -3177,462 +3184,795 @@ Warning[207]: Found label after column 1. (PLAYER_ON_3)
 0398   2???               M  CALL DEF_LCD_DAT
                           M         
                           M         
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 55
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
                           M         LCD_CMD L_L4    ;LINHA 4
 0399   30D0               M  MOVLW L_L4
 039A   00??               M  MOVWF LCD_CMD_INPUT
 039B   2???               M  CALL DEF_LCD_CMD
-                          M         LCD_DAT ' '
-039C   3020               M  MOVLW ' '
-039D   00??               M  MOVWF LCD_DAT_INPUT
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 55
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
-039E   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,7
+039C   1F80               M     BTFSS CENA_LINHA_4+1,7
+039D   2???               M     GOTO $+2
+039E   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
 039F   3020               M  MOVLW ' '
 03A0   00??               M  MOVWF LCD_DAT_INPUT
 03A1   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03A2   3020               M  MOVLW ' '
-03A3   00??               M  MOVWF LCD_DAT_INPUT
-03A4   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03A5   3020               M  MOVLW ' '
-03A6   00??               M  MOVWF LCD_DAT_INPUT
-03A7   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03A8   3020               M  MOVLW ' '
-03A9   00??               M  MOVWF LCD_DAT_INPUT
-03AA   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03AB   3020               M  MOVLW ' '
-03AC   00??               M  MOVWF LCD_DAT_INPUT
-03AD   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03AE   3020               M  MOVLW ' '
+03A2   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+03A3   3040               M  MOVLW '@'
+03A4   00??               M  MOVWF LCD_DAT_INPUT
+03A5   2???               M  CALL DEF_LCD_DAT
+03A6   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,6
+03A7   1F00               M     BTFSS CENA_LINHA_4+1,6
+03A8   2???               M     GOTO $+2
+03A9   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+03AA   3020               M  MOVLW ' '
+03AB   00??               M  MOVWF LCD_DAT_INPUT
+03AC   2???               M  CALL DEF_LCD_DAT
+03AD   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+03AE   3040               M  MOVLW '@'
 03AF   00??               M  MOVWF LCD_DAT_INPUT
 03B0   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03B1   3020               M  MOVLW ' '
-03B2   00??               M  MOVWF LCD_DAT_INPUT
-03B3   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03B4   3020               M  MOVLW ' '
-03B5   00??               M  MOVWF LCD_DAT_INPUT
-03B6   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03B7   3020               M  MOVLW ' '
-03B8   00??               M  MOVWF LCD_DAT_INPUT
-03B9   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03BA   3020               M  MOVLW ' '
-03BB   00??               M  MOVWF LCD_DAT_INPUT
-03BC   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03BD   3020               M  MOVLW ' '
-03BE   00??               M  MOVWF LCD_DAT_INPUT
-03BF   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
+03B1   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,5
+03B2   1E80               M     BTFSS CENA_LINHA_4+1,5
+03B3   2???               M     GOTO $+2
+03B4   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+03B5   3020               M  MOVLW ' '
+03B6   00??               M  MOVWF LCD_DAT_INPUT
+03B7   2???               M  CALL DEF_LCD_DAT
+03B8   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+03B9   3040               M  MOVLW '@'
+03BA   00??               M  MOVWF LCD_DAT_INPUT
+03BB   2???               M  CALL DEF_LCD_DAT
+03BC   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,4
+03BD   1E00               M     BTFSS CENA_LINHA_4+1,4
+03BE   2???               M     GOTO $+2
+03BF   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
 03C0   3020               M  MOVLW ' '
 03C1   00??               M  MOVWF LCD_DAT_INPUT
-03C2   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03C3   3020               M  MOVLW ' '
-03C4   00??               M  MOVWF LCD_DAT_INPUT
-03C5   2???               M  CALL DEF_LCD_DAT
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 56
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 56
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
   VALUE
 
-                          M         LCD_DAT ' '
-03C6   3020               M  MOVLW ' '
-03C7   00??               M  MOVWF LCD_DAT_INPUT
-03C8   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03C9   3020               M  MOVLW ' '
-03CA   00??               M  MOVWF LCD_DAT_INPUT
-03CB   2???               M  CALL DEF_LCD_DAT
-03CC   2???               M         GOTO END_PLAYER_DRAW
-Warning[207]: Found label after column 1. (PLAYER_ON_4)
-03CD                      M  PLAYER_ON_4:
-                          M         LCD_CMD L_L3    ;LINHA 3
-03CD   3090               M  MOVLW L_L3
-03CE   00??               M  MOVWF LCD_CMD_INPUT
-03CF   2???               M  CALL DEF_LCD_CMD
-                          M         LCD_DAT ' '
-03D0   3020               M  MOVLW ' '
-03D1   00??               M  MOVWF LCD_DAT_INPUT
-03D2   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03D3   3020               M  MOVLW ' '
-03D4   00??               M  MOVWF LCD_DAT_INPUT
-03D5   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
+03C2   2???               M  CALL DEF_LCD_DAT
+03C3   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+03C4   3040               M  MOVLW '@'
+03C5   00??               M  MOVWF LCD_DAT_INPUT
+03C6   2???               M  CALL DEF_LCD_DAT
+03C7   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,3
+03C8   1D80               M     BTFSS CENA_LINHA_4+1,3
+03C9   2???               M     GOTO $+2
+03CA   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+03CB   3020               M  MOVLW ' '
+03CC   00??               M  MOVWF LCD_DAT_INPUT
+03CD   2???               M  CALL DEF_LCD_DAT
+03CE   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+03CF   3040               M  MOVLW '@'
+03D0   00??               M  MOVWF LCD_DAT_INPUT
+03D1   2???               M  CALL DEF_LCD_DAT
+03D2   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,2
+03D3   1D00               M     BTFSS CENA_LINHA_4+1,2
+03D4   2???               M     GOTO $+2
+03D5   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
 03D6   3020               M  MOVLW ' '
 03D7   00??               M  MOVWF LCD_DAT_INPUT
 03D8   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03D9   3020               M  MOVLW ' '
-03DA   00??               M  MOVWF LCD_DAT_INPUT
-03DB   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03DC   3020               M  MOVLW ' '
-03DD   00??               M  MOVWF LCD_DAT_INPUT
-03DE   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03DF   3020               M  MOVLW ' '
-03E0   00??               M  MOVWF LCD_DAT_INPUT
-03E1   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03E2   3020               M  MOVLW ' '
-03E3   00??               M  MOVWF LCD_DAT_INPUT
-03E4   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03E5   3020               M  MOVLW ' '
+03D9   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+03DA   3040               M  MOVLW '@'
+03DB   00??               M  MOVWF LCD_DAT_INPUT
+03DC   2???               M  CALL DEF_LCD_DAT
+03DD   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,1
+03DE   1C80               M     BTFSS CENA_LINHA_4+1,1
+03DF   2???               M     GOTO $+2
+03E0   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+03E1   3020               M  MOVLW ' '
+03E2   00??               M  MOVWF LCD_DAT_INPUT
+03E3   2???               M  CALL DEF_LCD_DAT
+03E4   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+03E5   3040               M  MOVLW '@'
 03E6   00??               M  MOVWF LCD_DAT_INPUT
 03E7   2???               M  CALL DEF_LCD_DAT
-                          M         
-                          M         LCD_CMD L_L4    
-03E8   30D0               M  MOVLW L_L4
-03E9   00??               M  MOVWF LCD_CMD_INPUT
-03EA   2???               M  CALL DEF_LCD_CMD
-                          M         LCD_DAT ' '
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 57
+03E8   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,0
+03E9   1C00               M     BTFSS CENA_LINHA_4+1,0
+03EA   2???               M     GOTO $+2
+03EB   2???               M     GOTO $+5
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 57
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
   VALUE
 
-03EB   3020               M  MOVLW ' '
-03EC   00??               M  MOVWF LCD_DAT_INPUT
-03ED   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03EE   3020               M  MOVLW ' '
-03EF   00??               M  MOVWF LCD_DAT_INPUT
-03F0   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03F1   3020               M  MOVLW ' '
-03F2   00??               M  MOVWF LCD_DAT_INPUT
-03F3   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03F4   3020               M  MOVLW ' '
-03F5   00??               M  MOVWF LCD_DAT_INPUT
-03F6   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
+                          M     LCD_DAT ' '
+03EC   3020               M  MOVLW ' '
+03ED   00??               M  MOVWF LCD_DAT_INPUT
+03EE   2???               M  CALL DEF_LCD_DAT
+03EF   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+03F0   3040               M  MOVLW '@'
+03F1   00??               M  MOVWF LCD_DAT_INPUT
+03F2   2???               M  CALL DEF_LCD_DAT
+03F3   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4,7
+03F4   1F80               M     BTFSS CENA_LINHA_4,7
+03F5   2???               M     GOTO $+2
+03F6   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
 03F7   3020               M  MOVLW ' '
 03F8   00??               M  MOVWF LCD_DAT_INPUT
 03F9   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03FA   3020               M  MOVLW ' '
-03FB   00??               M  MOVWF LCD_DAT_INPUT
-03FC   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-03FD   3020               M  MOVLW ' '
-03FE   00??               M  MOVWF LCD_DAT_INPUT
-03FF   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT 'R'
-0400   3052               M  MOVLW 'R'
-0401   00??               M  MOVWF LCD_DAT_INPUT
-0402   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-0403   3020               M  MOVLW ' '
-0404   00??               M  MOVWF LCD_DAT_INPUT
-0405   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-0406   3020               M  MOVLW ' '
+03FA   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+03FB   3040               M  MOVLW '@'
+03FC   00??               M  MOVWF LCD_DAT_INPUT
+03FD   2???               M  CALL DEF_LCD_DAT
+03FE   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4,6
+03FF   1F00               M     BTFSS CENA_LINHA_4,6
+0400   2???               M     GOTO $+2
+0401   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+0402   3020               M  MOVLW ' '
+0403   00??               M  MOVWF LCD_DAT_INPUT
+0404   2???               M  CALL DEF_LCD_DAT
+0405   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+0406   3040               M  MOVLW '@'
 0407   00??               M  MOVWF LCD_DAT_INPUT
 0408   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-0409   3020               M  MOVLW ' '
-040A   00??               M  MOVWF LCD_DAT_INPUT
-040B   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-040C   3020               M  MOVLW ' '
-040D   00??               M  MOVWF LCD_DAT_INPUT
-040E   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-040F   3020               M  MOVLW ' '
-0410   00??               M  MOVWF LCD_DAT_INPUT
-0411   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-0412   3020               M  MOVLW ' '
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 58
+0409   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4,5
+040A   1E80               M     BTFSS CENA_LINHA_4,5
+040B   2???               M     GOTO $+2
+040C   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+040D   3020               M  MOVLW ' '
+040E   00??               M  MOVWF LCD_DAT_INPUT
+040F   2???               M  CALL DEF_LCD_DAT
+0410   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+0411   3040               M  MOVLW '@'
+0412   00??               M  MOVWF LCD_DAT_INPUT
+0413   2???               M  CALL DEF_LCD_DAT
+0414   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4,4
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 58
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
   VALUE
 
-0413   00??               M  MOVWF LCD_DAT_INPUT
-0414   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
-0415   3020               M  MOVLW ' '
-0416   00??               M  MOVWF LCD_DAT_INPUT
-0417   2???               M  CALL DEF_LCD_DAT
-                          M         LCD_DAT ' '
+0415   1E00               M     BTFSS CENA_LINHA_4,4
+0416   2???               M     GOTO $+2
+0417   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
 0418   3020               M  MOVLW ' '
 0419   00??               M  MOVWF LCD_DAT_INPUT
 041A   2???               M  CALL DEF_LCD_DAT
-041B   2???               M         GOTO END_PLAYER_DRAW
+041B   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+041C   3040               M  MOVLW '@'
+041D   00??               M  MOVWF LCD_DAT_INPUT
+041E   2???               M  CALL DEF_LCD_DAT
+041F   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4,3
+0420   1D80               M     BTFSS CENA_LINHA_4,3
+0421   2???               M     GOTO $+2
+0422   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+0423   3020               M  MOVLW ' '
+0424   00??               M  MOVWF LCD_DAT_INPUT
+0425   2???               M  CALL DEF_LCD_DAT
+0426   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+0427   3040               M  MOVLW '@'
+0428   00??               M  MOVWF LCD_DAT_INPUT
+0429   2???               M  CALL DEF_LCD_DAT
+042A   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4,2
+042B   1D00               M     BTFSS CENA_LINHA_4,2
+042C   2???               M     GOTO $+2
+042D   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+042E   3020               M  MOVLW ' '
+042F   00??               M  MOVWF LCD_DAT_INPUT
+0430   2???               M  CALL DEF_LCD_DAT
+0431   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+0432   3040               M  MOVLW '@'
+0433   00??               M  MOVWF LCD_DAT_INPUT
+0434   2???               M  CALL DEF_LCD_DAT
+0435   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4,1
+0436   1C80               M     BTFSS CENA_LINHA_4,1
+0437   2???               M     GOTO $+2
+0438   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+0439   3020               M  MOVLW ' '
+043A   00??               M  MOVWF LCD_DAT_INPUT
+043B   2???               M  CALL DEF_LCD_DAT
+043C   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+043D   3040               M  MOVLW '@'
+043E   00??               M  MOVWF LCD_DAT_INPUT
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 59
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+043F   2???               M  CALL DEF_LCD_DAT
+0440   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4,0
+0441   1C00               M     BTFSS CENA_LINHA_4,0
+0442   2???               M     GOTO $+2
+0443   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+0444   3020               M  MOVLW ' '
+0445   00??               M  MOVWF LCD_DAT_INPUT
+0446   2???               M  CALL DEF_LCD_DAT
+0447   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+0448   3040               M  MOVLW '@'
+0449   00??               M  MOVWF LCD_DAT_INPUT
+044A   2???               M  CALL DEF_LCD_DAT
+044B   0000               M     NOP
                           M         
-041C                      M END_PLAYER_DRAW:
-041C   0008               M     RETURN
+044C   2???               M         GOTO END_PLAYER_DRAW
+Warning[207]: Found label after column 1. (PLAYER_ON_4)
+044D                      M  PLAYER_ON_4:
+                          M         LCD_CMD L_L3    ;LINHA 3
+044D   3090               M  MOVLW L_L3
+044E   00??               M  MOVWF LCD_CMD_INPUT
+044F   2???               M  CALL DEF_LCD_CMD
+                          M         LCD_DAT ' '
+0450   3020               M  MOVLW ' '
+0451   00??               M  MOVWF LCD_DAT_INPUT
+0452   2???               M  CALL DEF_LCD_DAT
+                          M         LCD_DAT ' '
+0453   3020               M  MOVLW ' '
+0454   00??               M  MOVWF LCD_DAT_INPUT
+0455   2???               M  CALL DEF_LCD_DAT
+                          M         LCD_DAT ' '
+0456   3020               M  MOVLW ' '
+0457   00??               M  MOVWF LCD_DAT_INPUT
+0458   2???               M  CALL DEF_LCD_DAT
+                          M         LCD_DAT ' '
+0459   3020               M  MOVLW ' '
+045A   00??               M  MOVWF LCD_DAT_INPUT
+045B   2???               M  CALL DEF_LCD_DAT
+                          M         LCD_DAT ' '
+045C   3020               M  MOVLW ' '
+045D   00??               M  MOVWF LCD_DAT_INPUT
+045E   2???               M  CALL DEF_LCD_DAT
+                          M         LCD_DAT ' '
+045F   3020               M  MOVLW ' '
+0460   00??               M  MOVWF LCD_DAT_INPUT
+0461   2???               M  CALL DEF_LCD_DAT
+                          M         LCD_DAT ' '
+0462   3020               M  MOVLW ' '
+0463   00??               M  MOVWF LCD_DAT_INPUT
+0464   2???               M  CALL DEF_LCD_DAT
+                          M         LCD_DAT ' '
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 60
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+0465   3020               M  MOVLW ' '
+0466   00??               M  MOVWF LCD_DAT_INPUT
+0467   2???               M  CALL DEF_LCD_DAT
+                          M         
+                          M         LCD_CMD L_L4
+0468   30D0               M  MOVLW L_L4
+0469   00??               M  MOVWF LCD_CMD_INPUT
+046A   2???               M  CALL DEF_LCD_CMD
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,7
+046B   1F80               M     BTFSS CENA_LINHA_4+1,7
+046C   2???               M     GOTO $+2
+046D   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+046E   3020               M  MOVLW ' '
+046F   00??               M  MOVWF LCD_DAT_INPUT
+0470   2???               M  CALL DEF_LCD_DAT
+0471   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+0472   3040               M  MOVLW '@'
+0473   00??               M  MOVWF LCD_DAT_INPUT
+0474   2???               M  CALL DEF_LCD_DAT
+0475   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,6
+0476   1F00               M     BTFSS CENA_LINHA_4+1,6
+0477   2???               M     GOTO $+2
+0478   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+0479   3020               M  MOVLW ' '
+047A   00??               M  MOVWF LCD_DAT_INPUT
+047B   2???               M  CALL DEF_LCD_DAT
+047C   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+047D   3040               M  MOVLW '@'
+047E   00??               M  MOVWF LCD_DAT_INPUT
+047F   2???               M  CALL DEF_LCD_DAT
+0480   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,5
+0481   1E80               M     BTFSS CENA_LINHA_4+1,5
+0482   2???               M     GOTO $+2
+0483   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+0484   3020               M  MOVLW ' '
+0485   00??               M  MOVWF LCD_DAT_INPUT
+0486   2???               M  CALL DEF_LCD_DAT
+0487   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+0488   3040               M  MOVLW '@'
+0489   00??               M  MOVWF LCD_DAT_INPUT
+048A   2???               M  CALL DEF_LCD_DAT
+048B   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,4
+048C   1E00               M     BTFSS CENA_LINHA_4+1,4
+048D   2???               M     GOTO $+2
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 61
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+048E   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+048F   3020               M  MOVLW ' '
+0490   00??               M  MOVWF LCD_DAT_INPUT
+0491   2???               M  CALL DEF_LCD_DAT
+0492   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+0493   3040               M  MOVLW '@'
+0494   00??               M  MOVWF LCD_DAT_INPUT
+0495   2???               M  CALL DEF_LCD_DAT
+0496   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,3
+0497   1D80               M     BTFSS CENA_LINHA_4+1,3
+0498   2???               M     GOTO $+2
+0499   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+049A   3020               M  MOVLW ' '
+049B   00??               M  MOVWF LCD_DAT_INPUT
+049C   2???               M  CALL DEF_LCD_DAT
+049D   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+049E   3040               M  MOVLW '@'
+049F   00??               M  MOVWF LCD_DAT_INPUT
+04A0   2???               M  CALL DEF_LCD_DAT
+04A1   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,2
+04A2   1D00               M     BTFSS CENA_LINHA_4+1,2
+04A3   2???               M     GOTO $+2
+04A4   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+04A5   3020               M  MOVLW ' '
+04A6   00??               M  MOVWF LCD_DAT_INPUT
+04A7   2???               M  CALL DEF_LCD_DAT
+04A8   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+04A9   3040               M  MOVLW '@'
+04AA   00??               M  MOVWF LCD_DAT_INPUT
+04AB   2???               M  CALL DEF_LCD_DAT
+04AC   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,1
+04AD   1C80               M     BTFSS CENA_LINHA_4+1,1
+04AE   2???               M     GOTO $+2
+04AF   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+04B0   3020               M  MOVLW ' '
+04B1   00??               M  MOVWF LCD_DAT_INPUT
+04B2   2???               M  CALL DEF_LCD_DAT
+04B3   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+04B4   3040               M  MOVLW '@'
+04B5   00??               M  MOVWF LCD_DAT_INPUT
+04B6   2???               M  CALL DEF_LCD_DAT
+04B7   0000               M     NOP
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 62
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                          M         LCD_DAT 'R'
+04B8   3052               M  MOVLW 'R'
+04B9   00??               M  MOVWF LCD_DAT_INPUT
+04BA   2???               M  CALL DEF_LCD_DAT
+                          M         DESENHA_PEDRA CENA_LINHA_4+1,7
+04BB   1F80               M     BTFSS CENA_LINHA_4+1,7
+04BC   2???               M     GOTO $+2
+04BD   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+04BE   3020               M  MOVLW ' '
+04BF   00??               M  MOVWF LCD_DAT_INPUT
+04C0   2???               M  CALL DEF_LCD_DAT
+04C1   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+04C2   3040               M  MOVLW '@'
+04C3   00??               M  MOVWF LCD_DAT_INPUT
+04C4   2???               M  CALL DEF_LCD_DAT
+04C5   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4,6
+04C6   1F00               M     BTFSS CENA_LINHA_4,6
+04C7   2???               M     GOTO $+2
+04C8   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+04C9   3020               M  MOVLW ' '
+04CA   00??               M  MOVWF LCD_DAT_INPUT
+04CB   2???               M  CALL DEF_LCD_DAT
+04CC   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+04CD   3040               M  MOVLW '@'
+04CE   00??               M  MOVWF LCD_DAT_INPUT
+04CF   2???               M  CALL DEF_LCD_DAT
+04D0   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4,5
+04D1   1E80               M     BTFSS CENA_LINHA_4,5
+04D2   2???               M     GOTO $+2
+04D3   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+04D4   3020               M  MOVLW ' '
+04D5   00??               M  MOVWF LCD_DAT_INPUT
+04D6   2???               M  CALL DEF_LCD_DAT
+04D7   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+04D8   3040               M  MOVLW '@'
+04D9   00??               M  MOVWF LCD_DAT_INPUT
+04DA   2???               M  CALL DEF_LCD_DAT
+04DB   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4,4
+04DC   1E00               M     BTFSS CENA_LINHA_4,4
+04DD   2???               M     GOTO $+2
+04DE   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+04DF   3020               M  MOVLW ' '
+04E0   00??               M  MOVWF LCD_DAT_INPUT
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 63
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+04E1   2???               M  CALL DEF_LCD_DAT
+04E2   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+04E3   3040               M  MOVLW '@'
+04E4   00??               M  MOVWF LCD_DAT_INPUT
+04E5   2???               M  CALL DEF_LCD_DAT
+04E6   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4,3
+04E7   1D80               M     BTFSS CENA_LINHA_4,3
+04E8   2???               M     GOTO $+2
+04E9   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+04EA   3020               M  MOVLW ' '
+04EB   00??               M  MOVWF LCD_DAT_INPUT
+04EC   2???               M  CALL DEF_LCD_DAT
+04ED   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+04EE   3040               M  MOVLW '@'
+04EF   00??               M  MOVWF LCD_DAT_INPUT
+04F0   2???               M  CALL DEF_LCD_DAT
+04F1   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4,2
+04F2   1D00               M     BTFSS CENA_LINHA_4,2
+04F3   2???               M     GOTO $+2
+04F4   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+04F5   3020               M  MOVLW ' '
+04F6   00??               M  MOVWF LCD_DAT_INPUT
+04F7   2???               M  CALL DEF_LCD_DAT
+04F8   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+04F9   3040               M  MOVLW '@'
+04FA   00??               M  MOVWF LCD_DAT_INPUT
+04FB   2???               M  CALL DEF_LCD_DAT
+04FC   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4,1
+04FD   1C80               M     BTFSS CENA_LINHA_4,1
+04FE   2???               M     GOTO $+2
+04FF   2???               M     GOTO $+5
+                          M     LCD_DAT ' '
+0500   3020               M  MOVLW ' '
+0501   00??               M  MOVWF LCD_DAT_INPUT
+0502   2???               M  CALL DEF_LCD_DAT
+0503   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+0504   3040               M  MOVLW '@'
+0505   00??               M  MOVWF LCD_DAT_INPUT
+0506   2???               M  CALL DEF_LCD_DAT
+0507   0000               M     NOP
+                          M         DESENHA_PEDRA CENA_LINHA_4,0
+0508   1C00               M     BTFSS CENA_LINHA_4,0
+0509   2???               M     GOTO $+2
+050A   2???               M     GOTO $+5
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 64
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                          M     LCD_DAT ' '
+050B   3020               M  MOVLW ' '
+050C   00??               M  MOVWF LCD_DAT_INPUT
+050D   2???               M  CALL DEF_LCD_DAT
+050E   2???               M     GOTO $+4
+                          M     LCD_DAT '@'
+050F   3040               M  MOVLW '@'
+0510   00??               M  MOVWF LCD_DAT_INPUT
+0511   2???               M  CALL DEF_LCD_DAT
+0512   0000               M     NOP
+0513   2???               M         GOTO END_PLAYER_DRAW
+                          M         
+0514                      M END_PLAYER_DRAW:
+0514   0008               M     RETURN
                           M  
                       00062  
-                      00063 
-041D                  00064 SETUP_TIMER_INT:                                                                ; CONFIGURA CONTADOR
-                      00065  BANK1
-041D   1303               M  BCF STATUS, RP1
-041E   1683               M  BSF STATUS, RP0
+0515                  00063 SETUP_TIMER_INT:                                                                ; CONFIGURA CONTADOR
+                      00064  BANK1
+0515   1303               M  BCF STATUS, RP1
+0516   1683               M  BSF STATUS, RP0
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
-041F   1086           00066  BCF TRISB, RB1
+0517   1086           00065  BCF TRISB, RB1
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
-0420   1181           00067  BCF OPTION_REG, PSA                                                            ; HABILITA PSA PRO TIMER
+0518   1181           00066  BCF OPTION_REG, PSA                                                            ; HABILITA PSA PRO TIMER
                              0
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
-0421   1501           00068  BSF OPTION_REG, PS2
+0519   1501           00067  BSF OPTION_REG, PS2
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
-0422   1481           00069  BSF OPTION_REG, PS1
+051A   1481           00068  BSF OPTION_REG, PS1
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
-0423   1001           00070  BCF OPTION_REG, PS0
-                      00071  BANK0
-0424   1303               M  BCF STATUS, RP1
-0425   1283               M  BCF STATUS, RP0
+051B   1001           00069  BCF OPTION_REG, PS0
+                      00070  BANK0
+051C   1303               M  BCF STATUS, RP1
+051D   1283               M  BCF STATUS, RP0
 Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
-0426   1086           00072  BCF TRISB, RB1
+051E   1086           00071  BCF TRISB, RB1
+                      00072                                                                                 
                       00073                                                                                 
-                      00074                                                                                 
-0427   307E           00075  MOVLW D'126'
-0428   0081           00076  MOVWF TMR0
-                      00077  
-0429   303C           00078  MOVLW D'60'
-042A   00??           00079  MOVWF TIMER_COUNT
-                      00080  
-042B   110B           00081  BCF INTCON, TMR0IF
-042C   168B           00082  BSF INTCON, TMR0IE
-042D   178B           00083  BSF INTCON, GIE
-042E   0008           00084  RETURN 
-                      00085  
-042F                  00086 TELA_INICIAL:                                                                                           
+051F   307E           00074  MOVLW D'126'
+0520   0081           00075  MOVWF TMR0
+                      00076  
+0521   303C           00077  MOVLW D'60'
+0522   00??           00078  MOVWF TIMER_COUNT
+                      00079  
+0523   110B           00080  BCF INTCON, TMR0IF
+0524   168B           00081  BSF INTCON, TMR0IE
+0525   178B           00082  BSF INTCON, GIE
+0526   0008           00083  RETURN 
+                      00084  
+0527                  00085 TELA_INICIAL:                                                                                           
                                                        
-042F   2???           00087  CALL LCD_INIT                                                                  ; INICIA O LCD
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 59
+0527   2???           00086  CALL LCD_INIT                                                                  ; INICIA O LCD
+0528   2???           00087  CALL TELA_AP                                                                   ; MOSTRA A TELA INICIAL 
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 65
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
   VALUE
 
-0430   2???           00088  CALL TELA_AP                                                                   ; MOSTRA A TELA INICIAL 
                             DO JOGO
+                      00088  DELAY_S D'1'
+0529   30A5               M     MOVLW D'165' 
+052A   00??               M     MOVWF CORNIO_DELAY_FT1 
+                          M     
+052B   30FF               M     MOVLW D'255' 
+052C   00??               M     MOVWF CORNIO_DELAY_FT2
+                          M     
+052D   3004               M     MOVLW D'4'
+052E   00??               M     MOVWF CORNIO_DELAY_FT3
+                          M     
+052F   3001               M     MOVLW D'1'
+0530   00??               M     MOVWF CORNIO_DELAY_FT4
+                          M     
+0531   0B??               M     DECFSZ CORNIO_DELAY_FT1,1 
+0532   2???               M     GOTO $-1 
+0533   0B??               M     DECFSZ CORNIO_DELAY_FT2,1
+0534   2???               M     GOTO $-3
+0535   0B??               M     DECFSZ CORNIO_DELAY_FT3,1
+0536   2???               M     GOTO $-5
+0537   0B??               M     DECFSZ CORNIO_DELAY_FT4,1
+0538   2???               M     GOTO $-7
                       00089  DELAY_S D'1'
-0431   30A5               M     MOVLW D'165' 
-0432   00??               M     MOVWF CORNIO_DELAY_FT1 
+0539   30A5               M     MOVLW D'165' 
+053A   00??               M     MOVWF CORNIO_DELAY_FT1 
                           M     
-0433   30FF               M     MOVLW D'255' 
-0434   00??               M     MOVWF CORNIO_DELAY_FT2
+053B   30FF               M     MOVLW D'255' 
+053C   00??               M     MOVWF CORNIO_DELAY_FT2
                           M     
-0435   3004               M     MOVLW D'4'
-0436   00??               M     MOVWF CORNIO_DELAY_FT3
+053D   3004               M     MOVLW D'4'
+053E   00??               M     MOVWF CORNIO_DELAY_FT3
                           M     
-0437   3001               M     MOVLW D'1'
-0438   00??               M     MOVWF CORNIO_DELAY_FT4
+053F   3001               M     MOVLW D'1'
+0540   00??               M     MOVWF CORNIO_DELAY_FT4
                           M     
-0439   0B??               M     DECFSZ CORNIO_DELAY_FT1,1 
-043A   2???               M     GOTO $-1 
-043B   0B??               M     DECFSZ CORNIO_DELAY_FT2,1
-043C   2???               M     GOTO $-3
-043D   0B??               M     DECFSZ CORNIO_DELAY_FT3,1
-043E   2???               M     GOTO $-5
-043F   0B??               M     DECFSZ CORNIO_DELAY_FT4,1
-0440   2???               M     GOTO $-7
+0541   0B??               M     DECFSZ CORNIO_DELAY_FT1,1 
+0542   2???               M     GOTO $-1 
+0543   0B??               M     DECFSZ CORNIO_DELAY_FT2,1
+0544   2???               M     GOTO $-3
+0545   0B??               M     DECFSZ CORNIO_DELAY_FT3,1
+0546   2???               M     GOTO $-5
+0547   0B??               M     DECFSZ CORNIO_DELAY_FT4,1
+0548   2???               M     GOTO $-7
                       00090  DELAY_S D'1'
-0441   30A5               M     MOVLW D'165' 
-0442   00??               M     MOVWF CORNIO_DELAY_FT1 
+0549   30A5               M     MOVLW D'165' 
+054A   00??               M     MOVWF CORNIO_DELAY_FT1 
                           M     
-0443   30FF               M     MOVLW D'255' 
-0444   00??               M     MOVWF CORNIO_DELAY_FT2
+054B   30FF               M     MOVLW D'255' 
+054C   00??               M     MOVWF CORNIO_DELAY_FT2
                           M     
-0445   3004               M     MOVLW D'4'
-0446   00??               M     MOVWF CORNIO_DELAY_FT3
+054D   3004               M     MOVLW D'4'
+054E   00??               M     MOVWF CORNIO_DELAY_FT3
                           M     
-0447   3001               M     MOVLW D'1'
-0448   00??               M     MOVWF CORNIO_DELAY_FT4
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 66
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+054F   3001               M     MOVLW D'1'
+0550   00??               M     MOVWF CORNIO_DELAY_FT4
                           M     
-0449   0B??               M     DECFSZ CORNIO_DELAY_FT1,1 
-044A   2???               M     GOTO $-1 
-044B   0B??               M     DECFSZ CORNIO_DELAY_FT2,1
-044C   2???               M     GOTO $-3
-044D   0B??               M     DECFSZ CORNIO_DELAY_FT3,1
-044E   2???               M     GOTO $-5
-044F   0B??               M     DECFSZ CORNIO_DELAY_FT4,1
-0450   2???               M     GOTO $-7
+0551   0B??               M     DECFSZ CORNIO_DELAY_FT1,1 
+0552   2???               M     GOTO $-1 
+0553   0B??               M     DECFSZ CORNIO_DELAY_FT2,1
+0554   2???               M     GOTO $-3
+0555   0B??               M     DECFSZ CORNIO_DELAY_FT3,1
+0556   2???               M     GOTO $-5
+0557   0B??               M     DECFSZ CORNIO_DELAY_FT4,1
+0558   2???               M     GOTO $-7
                       00091  DELAY_S D'1'
-0451   30A5               M     MOVLW D'165' 
-0452   00??               M     MOVWF CORNIO_DELAY_FT1 
+0559   30A5               M     MOVLW D'165' 
+055A   00??               M     MOVWF CORNIO_DELAY_FT1 
                           M     
-0453   30FF               M     MOVLW D'255' 
-0454   00??               M     MOVWF CORNIO_DELAY_FT2
+055B   30FF               M     MOVLW D'255' 
+055C   00??               M     MOVWF CORNIO_DELAY_FT2
                           M     
-0455   3004               M     MOVLW D'4'
-0456   00??               M     MOVWF CORNIO_DELAY_FT3
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 60
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
+055D   3004               M     MOVLW D'4'
+055E   00??               M     MOVWF CORNIO_DELAY_FT3
                           M     
-0457   3001               M     MOVLW D'1'
-0458   00??               M     MOVWF CORNIO_DELAY_FT4
+055F   3001               M     MOVLW D'1'
+0560   00??               M     MOVWF CORNIO_DELAY_FT4
                           M     
-0459   0B??               M     DECFSZ CORNIO_DELAY_FT1,1 
-045A   2???               M     GOTO $-1 
-045B   0B??               M     DECFSZ CORNIO_DELAY_FT2,1
-045C   2???               M     GOTO $-3
-045D   0B??               M     DECFSZ CORNIO_DELAY_FT3,1
-045E   2???               M     GOTO $-5
-045F   0B??               M     DECFSZ CORNIO_DELAY_FT4,1
-0460   2???               M     GOTO $-7
+0561   0B??               M     DECFSZ CORNIO_DELAY_FT1,1 
+0562   2???               M     GOTO $-1 
+0563   0B??               M     DECFSZ CORNIO_DELAY_FT2,1
+0564   2???               M     GOTO $-3
+0565   0B??               M     DECFSZ CORNIO_DELAY_FT3,1
+0566   2???               M     GOTO $-5
+0567   0B??               M     DECFSZ CORNIO_DELAY_FT4,1
+0568   2???               M     GOTO $-7
                       00092  DELAY_S D'1'
-0461   30A5               M     MOVLW D'165' 
-0462   00??               M     MOVWF CORNIO_DELAY_FT1 
+0569   30A5               M     MOVLW D'165' 
+056A   00??               M     MOVWF CORNIO_DELAY_FT1 
                           M     
-0463   30FF               M     MOVLW D'255' 
-0464   00??               M     MOVWF CORNIO_DELAY_FT2
+056B   30FF               M     MOVLW D'255' 
+056C   00??               M     MOVWF CORNIO_DELAY_FT2
                           M     
-0465   3004               M     MOVLW D'4'
-0466   00??               M     MOVWF CORNIO_DELAY_FT3
+056D   3004               M     MOVLW D'4'
+056E   00??               M     MOVWF CORNIO_DELAY_FT3
                           M     
-0467   3001               M     MOVLW D'1'
-0468   00??               M     MOVWF CORNIO_DELAY_FT4
+056F   3001               M     MOVLW D'1'
+0570   00??               M     MOVWF CORNIO_DELAY_FT4
                           M     
-0469   0B??               M     DECFSZ CORNIO_DELAY_FT1,1 
-046A   2???               M     GOTO $-1 
-046B   0B??               M     DECFSZ CORNIO_DELAY_FT2,1
-046C   2???               M     GOTO $-3
-046D   0B??               M     DECFSZ CORNIO_DELAY_FT3,1
-046E   2???               M     GOTO $-5
-046F   0B??               M     DECFSZ CORNIO_DELAY_FT4,1
-0470   2???               M     GOTO $-7
-                      00093  DELAY_S D'1'
-0471   30A5               M     MOVLW D'165' 
-0472   00??               M     MOVWF CORNIO_DELAY_FT1 
-                          M     
-0473   30FF               M     MOVLW D'255' 
-0474   00??               M     MOVWF CORNIO_DELAY_FT2
-                          M     
-0475   3004               M     MOVLW D'4'
-0476   00??               M     MOVWF CORNIO_DELAY_FT3
-                          M     
-0477   3001               M     MOVLW D'1'
-0478   00??               M     MOVWF CORNIO_DELAY_FT4
-                          M     
-0479   0B??               M     DECFSZ CORNIO_DELAY_FT1,1 
-047A   2???               M     GOTO $-1 
-047B   0B??               M     DECFSZ CORNIO_DELAY_FT2,1
-047C   2???               M     GOTO $-3
-047D   0B??               M     DECFSZ CORNIO_DELAY_FT3,1
-047E   2???               M     GOTO $-5
-047F   0B??               M     DECFSZ CORNIO_DELAY_FT4,1
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 61
+0571   0B??               M     DECFSZ CORNIO_DELAY_FT1,1 
+0572   2???               M     GOTO $-1 
+0573   0B??               M     DECFSZ CORNIO_DELAY_FT2,1
+0574   2???               M     GOTO $-3
+0575   0B??               M     DECFSZ CORNIO_DELAY_FT3,1
+0576   2???               M     GOTO $-5
+0577   0B??               M     DECFSZ CORNIO_DELAY_FT4,1
+0578   2???               M     GOTO $-7
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 67
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
   VALUE
 
-0480   2???               M     GOTO $-7
-0481   0008           00094  RETURN
-                      00095  
-0482                  00096 MOSTRAR_PONTUACAO:
-0482   2???           00097  CALL ENABLE_DISPLAY                                                            ; ATIVA O DISPLAY DE 7 S
-                            EGMENTOS
-                      00098  DISPLAY_F DISP_4, PONTUACAO                                                    ; EXIBE A PONTUAÇÃO DO J
-                            OGADOR NO DISPLAY
-                          M     MOVLF DISP_4,CORNIO_DISPLAY_TO_DRAW_DISP
-0483   3020               M  MOVLW DISP_4
-0484   00??               M  MOVWF CORNIO_DISPLAY_TO_DRAW_DISP
-                          M     MOVFF PONTUACAO,CORNIO_DISPLAY_TO_DRAW_VALUE
-0485   08??               M  MOVF PONTUACAO,W
-0486   00??               M  MOVWF CORNIO_DISPLAY_TO_DRAW_VALUE
-0487   2???               M     CALL  CORNIO_DISPLAY_F_DEF     
-0488   0008           00099  RETURN                                                                         
+0579   0008           00093  RETURN
+                      00094  
+                      00095                                                                  
+057A                  00096 START:
+                      00097  MOVLF D'32',CENA_LINHA_4
+057A   3020               M  MOVLW D'32'
+057B   00??               M  MOVWF CENA_LINHA_4
+057C   2???           00098  CALL TELA_INICIAL
+057D   2???           00099  CALL SETUP_TIMER_INT
                       00100  
-                      00101  
-0489                  00102 START:
-0489   2???           00103  CALL TELA_INICIAL
-048A   2???           00104  CALL SETUP_TIMER_INT
-                      00105  
-048B                  00106 LOOP:
-                      00107  ;CALL MOSTRAR_PONTUACAO   
-                      00108  CMPFL JOGO_RODANDO,1                                                           ; SE O JOGO NÃO ESTIVER 
+057E                  00101 LOOP:
+                      00102  CMPFL JOGO_RODANDO,1                                                           ; SE O JOGO NÃO ESTIVER 
                             RODANDO VAI PARA O MENU, CASO CONTRARIO VAI PRO JOGO
-048B   08??               M  MOVF JOGO_RODANDO,W
-048C   3C01               M  SUBLW 1
-                      00109  JE GAME
-048D   1903               M  BTFSC STATUS, Z
-048E   2???               M  GOTO GAME
-                      00110  
-048F                  00111 MENU:
-048F   2???           00112  CALL TELA_INSTRUCOES                                                           ; MOSTRA A TELA COM INST
+057E   08??               M  MOVF JOGO_RODANDO,W
+057F   3C01               M  SUBLW 1
+                      00103  JE GAME
+0580   1903               M  BTFSC STATUS, Z
+0581   2???               M  GOTO GAME
+                      00104  
+0582                  00105 MENU:
+0582   2???           00106  CALL TELA_INSTRUCOES                                                           ; MOSTRA A TELA COM INST
                             RUÇÕES
-0490   2???           00113  CALL ENABLE_KEYBOARD                                                           ; ATIVA O TECLADO
-0491                  00114 MENU_INP:
-0491   2???           00115  CALL CORNIO_INPUT                                                              ; PEGA A ENTRADA DO USUÁ
+0583   2???           00107  CALL ENABLE_KEYBOARD                                                           ; ATIVA O TECLADO
+0584                  00108 MENU_INP:
+0584   2???           00109  CALL CORNIO_INPUT                                                              ; PEGA A ENTRADA DO USUÁ
                             RIO, SE NADA FOI PRESSIONADO VOLTA PARA MENU
-                      00116  CMPFL ENTRADA,KEY_NONE
-0492   08??               M  MOVF ENTRADA,W
-0493   3C1F               M  SUBLW KEY_NONE
-                      00117  JE MENU_INP
-0494   1903               M  BTFSC STATUS, Z
-0495   2???               M  GOTO MENU_INP
-                      00118  MOVLF 1,JOGO_RODANDO
-0496   3001               M  MOVLW 1
-0497   00??               M  MOVWF JOGO_RODANDO
-                      00119  DELAY_MS D'250'
-0498   30A5               M     MOVLW D'165' 
-0499   00??               M     MOVWF CORNIO_DELAY_FT1 
+                      00110  CMPFL ENTRADA,KEY_NONE
+0585   08??               M  MOVF ENTRADA,W
+0586   3C1F               M  SUBLW KEY_NONE
+                      00111  JE MENU_INP
+0587   1903               M  BTFSC STATUS, Z
+0588   2???               M  GOTO MENU_INP
+                      00112  MOVLF 1,JOGO_RODANDO
+0589   3001               M  MOVLW 1
+058A   00??               M  MOVWF JOGO_RODANDO
+                      00113  DELAY_MS D'250'
+058B   30A5               M     MOVLW D'165' 
+058C   00??               M     MOVWF CORNIO_DELAY_FT1 
                           M     
-049A   30FA               M     MOVLW D'250' 
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 62
+058D   30FA               M     MOVLW D'250' 
+058E   00??               M     MOVWF CORNIO_DELAY_FT2
+                          M     
+058F   0B??               M     DECFSZ CORNIO_DELAY_FT1,1 
+0590   2???               M     GOTO $-1 
+0591   0B??               M     DECFSZ CORNIO_DELAY_FT2,1
+0592   2???               M     GOTO $-3
+0593   2???           00114  CALL LCD_ENABLE
+                      00115  LCD_CMD L_CLR
+0594   3001               M  MOVLW L_CLR
+0595   00??               M  MOVWF LCD_CMD_INPUT
+0596   2???               M  CALL DEF_LCD_CMD
+                      00116  
+0597                  00117 GAME:
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 68
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
   VALUE
 
-049B   00??               M     MOVWF CORNIO_DELAY_FT2
-                          M     
-049C   0B??               M     DECFSZ CORNIO_DELAY_FT1,1 
-049D   2???               M     GOTO $-1 
-049E   0B??               M     DECFSZ CORNIO_DELAY_FT2,1
-049F   2???               M     GOTO $-3
-                      00120  ;DELAY_MS D'250'
-04A0   2???           00121  CALL LCD_ENABLE
-                      00122  LCD_CMD L_CLR
-04A1   3001               M  MOVLW L_CLR
-04A2   00??               M  MOVWF LCD_CMD_INPUT
-04A3   2???               M  CALL DEF_LCD_CMD
-                      00123  
-04A4                  00124 GAME:
-04A4   2???           00125  CALL CORNIO_INPUT
-                      00126  CMPFL ENTRADA,KEY_NONE
-04A5   08??               M  MOVF ENTRADA,W
-04A6   3C1F               M  SUBLW KEY_NONE
-                      00127  JE PLAYER_NOT_JUNP
-04A7   1903               M  BTFSC STATUS, Z
-04A8   2???               M  GOTO PLAYER_NOT_JUNP
-                      00128  MOVLF 1,VOANDO
-04A9   3001               M  MOVLW 1
-04AA   00??               M  MOVWF VOANDO
-                      00129  
-04AB                  00130 PLAYER_NOT_JUNP:
-04AB   2???           00131  CALL TELA_GAME
-04AC   2???           00132  GOTO LOOP
-3F3B                  00133  END
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 63
+0597   2???           00118  CALL CORNIO_INPUT
+                      00119  CMPFL ENTRADA,KEY_NONE
+0598   08??               M  MOVF ENTRADA,W
+0599   3C1F               M  SUBLW KEY_NONE
+                      00120  JE PLAYER_NOT_JUNP
+059A   1903               M  BTFSC STATUS, Z
+059B   2???               M  GOTO PLAYER_NOT_JUNP
+                      00121  MOVLF 1,VOANDO
+059C   3001               M  MOVLW 1
+059D   00??               M  MOVWF VOANDO
+                      00122  
+059E                  00123 PLAYER_NOT_JUNP:
+059E   2???           00124  CALL TELA_GAME
+059F   2???           00125  GOTO LOOP
+3F3B                  00126  END
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 69
 
 
 SYMBOL TABLE
@@ -3690,14 +4030,13 @@ CCPR1L                            00000015
 CCPR2                             0000001B
 CCPR2H                            0000001C
 CCPR2L                            0000001B
-CENA_LINHA_3                      00000012
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 64
+CENA_LINHA_4                      00000010
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 70
 
 
 SYMBOL TABLE
   LABEL                             VALUE 
 
-CENA_LINHA_4                      00000010
 CHS0                              00000003
 CHS1                              00000004
 CHS2                              00000005
@@ -3750,13 +4089,13 @@ CORNIO_MOV4                       00000105
 CORNIO_MOV5                       00000108
 CORNIO_MOV6                       0000010B
 CORNIO_MOV7                       0000010E
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 65
+CORNIO_MOV8                       00000111
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 71
 
 
 SYMBOL TABLE
   LABEL                             VALUE 
 
-CORNIO_MOV8                       00000111
 CORNIO_MOV9                       00000114
 CORNIO_MOV_ASTER                  000000F3
 CORNIO_MOV_HASH                   000000F6
@@ -3782,6 +4121,7 @@ DEF_LCD_CMD                       0000000B
 DEF_LCD_DAT                       00000022
 DELAY_MS                          
 DELAY_S                           
+DESENHA_PEDRA                     
 DISPLAY_F                         
 DISPLAY_VARS                      
 DISP_1                            00000004
@@ -3801,15 +4141,15 @@ EEIF                              00000004
 EEPGD                             00000007
 ENABLE_DISPLAY                    000002C2
 ENABLE_KEYBOARD                   0000006E
-END_PLAYER_DRAW                   0000041C
+END_PLAYER_DRAW                   00000514
 ENTRADA                           00000000
 F                                 00000001
 FERR                              00000002
 FSR                               00000004
-GAME                              000004A4
+GAME                              00000597
 GCEN                              00000007
 GIE                               00000007
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 66
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 72
 
 
 SYMBOL TABLE
@@ -3860,7 +4200,7 @@ LCD_VARS
 LDAT                              RE2
 LENA                              RE1
 LIB_VARS                          
-LOOP                              0000048B
+LOOP                              0000057E
 LPORT                             PORTD
 L_CFG                             00000038
 L_CLR                             00000001
@@ -3868,7 +4208,7 @@ L_CR                              0000000F
 L_L1                              00000080
 L_L2                              000000C0
 L_L3                              00000090
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 67
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 73
 
 
 SYMBOL TABLE
@@ -3880,9 +4220,8 @@ L_OFF                             00000008
 L_ON                              0000000F
 L_SHIFT_LEFT                      00000018
 L_SHIFT_RIGHT                     0000001C
-MENU                              0000048F
-MENU_INP                          00000491
-MOSTRAR_PONTUACAO                 00000482
+MENU                              00000582
+MENU_INP                          00000584
 MOVFF                             
 MOVLF                             
 NOT_A                             00000005
@@ -3916,9 +4255,9 @@ PIE1                              0000008C
 PIE2                              0000008D
 PIR1                              0000000C
 PIR2                              0000000D
-PLAYER_NOT_JUNP                   000004AB
+PLAYER_NOT_JUNP                   0000059E
 PLAYER_ON_3                       0000037E
-PLAYER_ON_4                       000003CD
+PLAYER_ON_4                       0000044D
 PONTUACAO                         00000001
 PORTA                             00000005
 PORTB                             00000006
@@ -3927,13 +4266,13 @@ PORTD                             00000008
 PORTE                             00000009
 PR2                               00000092
 PS0                               00000000
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 68
+PS1                               00000001
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 74
 
 
 SYMBOL TABLE
   LABEL                             VALUE 
 
-PS1                               00000001
 PS2                               00000002
 PSA                               00000003
 PSPIE                             00000007
@@ -3986,13 +4325,13 @@ RE1                               00000001
 RE2                               00000002
 READ_WRITE                        00000002
 RP0                               00000005
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 69
+RP1                               00000006
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 75
 
 
 SYMBOL TABLE
   LABEL                             VALUE 
 
-RP1                               00000006
 RSEN                              00000001
 RX9                               00000006
 RX9D                              00000000
@@ -4000,7 +4339,7 @@ R_NOT_W                           00000002
 R_W                               00000002
 S                                 00000003
 SEN                               00000000
-SETUP_TIMER_INT                   0000041D
+SETUP_TIMER_INT                   00000515
 SHOW_0                            0000003F
 SHOW_1                            00000006
 SHOW_2                            0000005B
@@ -4029,7 +4368,7 @@ SSPM2                             00000002
 SSPM3                             00000003
 SSPOV                             00000006
 SSPSTAT                           00000094
-START                             00000489
+START                             0000057A
 STATUS                            00000003
 SYNC                              00000004
 T0CS                              00000005
@@ -4045,20 +4384,20 @@ T1SYNC                            00000002
 T2CKPS0                           00000000
 T2CKPS1                           00000001
 T2CON                             00000012
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 70
+TELAS_DEF                         
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 76
 
 
 SYMBOL TABLE
   LABEL                             VALUE 
 
-TELAS_DEF                         
 TELA_AP                           00000120
 TELA_AP_INC                       
 TELA_GAME                         00000379
 TELA_GAME_DEFINE_FUNCS            
 TELA_GAME_HEADER                  
 TELA_GAME_VARS                    
-TELA_INICIAL                      0000042F
+TELA_INICIAL                      00000527
 TELA_INSTRUCOES                   000001F1
 TEMPO_VOANDO                      0000000F
 TIMER_COUNT                       00000003
@@ -4104,13 +4443,13 @@ TRISC2                            00000002
 TRISC3                            00000003
 TRISC4                            00000004
 TRISC5                            00000005
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 71
+TRISC6                            00000006
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 77
 
 
 SYMBOL TABLE
   LABEL                             VALUE 
 
-TRISC6                            00000006
 TRISC7                            00000007
 TRISD                             00000088
 TRISD0                            00000000
@@ -4163,13 +4502,13 @@ _FOSC_XT                          00003FFD
 _HS_OSC                           00003FFE
 _IDLOC0                           00002000
 _IDLOC1                           00002001
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 72
+_IDLOC2                           00002002
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 78
 
 
 SYMBOL TABLE
   LABEL                             VALUE 
 
-_IDLOC2                           00002002
 _IDLOC3                           00002003
 _LP_OSC                           00003FFC
 _LVP_OFF                          00003F7F
@@ -4212,36 +4551,141 @@ _MAIN_PROG_0367                   00000367
 _MAIN_PROG_0369                   00000369
 _MAIN_PROG_0374                   00000374
 _MAIN_PROG_0376                   00000376
-_MAIN_PROG_043A                   0000043A
-_MAIN_PROG_043C                   0000043C
-_MAIN_PROG_043E                   0000043E
-_MAIN_PROG_0440                   00000440
-_MAIN_PROG_044A                   0000044A
-_MAIN_PROG_044C                   0000044C
-_MAIN_PROG_044E                   0000044E
-_MAIN_PROG_0450                   00000450
-_MAIN_PROG_045A                   0000045A
-_MAIN_PROG_045C                   0000045C
-MPASM 5.87                          MAIN.ASM   6-6-2020  1:21:21         PAGE 73
+_MAIN_PROG_039D                   0000039D
+_MAIN_PROG_039E                   0000039E
+_MAIN_PROG_03A2                   000003A2
+_MAIN_PROG_03A8                   000003A8
+_MAIN_PROG_03A9                   000003A9
+_MAIN_PROG_03AD                   000003AD
+_MAIN_PROG_03B3                   000003B3
+_MAIN_PROG_03B4                   000003B4
+_MAIN_PROG_03B8                   000003B8
+_MAIN_PROG_03BE                   000003BE
+_MAIN_PROG_03BF                   000003BF
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 79
 
 
 SYMBOL TABLE
   LABEL                             VALUE 
 
-_MAIN_PROG_045E                   0000045E
-_MAIN_PROG_0460                   00000460
-_MAIN_PROG_046A                   0000046A
+_MAIN_PROG_03C3                   000003C3
+_MAIN_PROG_03C9                   000003C9
+_MAIN_PROG_03CA                   000003CA
+_MAIN_PROG_03CE                   000003CE
+_MAIN_PROG_03D4                   000003D4
+_MAIN_PROG_03D5                   000003D5
+_MAIN_PROG_03D9                   000003D9
+_MAIN_PROG_03DF                   000003DF
+_MAIN_PROG_03E0                   000003E0
+_MAIN_PROG_03E4                   000003E4
+_MAIN_PROG_03EA                   000003EA
+_MAIN_PROG_03EB                   000003EB
+_MAIN_PROG_03EF                   000003EF
+_MAIN_PROG_03F5                   000003F5
+_MAIN_PROG_03F6                   000003F6
+_MAIN_PROG_03FA                   000003FA
+_MAIN_PROG_0400                   00000400
+_MAIN_PROG_0401                   00000401
+_MAIN_PROG_0405                   00000405
+_MAIN_PROG_040B                   0000040B
+_MAIN_PROG_040C                   0000040C
+_MAIN_PROG_0410                   00000410
+_MAIN_PROG_0416                   00000416
+_MAIN_PROG_0417                   00000417
+_MAIN_PROG_041B                   0000041B
+_MAIN_PROG_0421                   00000421
+_MAIN_PROG_0422                   00000422
+_MAIN_PROG_0426                   00000426
+_MAIN_PROG_042C                   0000042C
+_MAIN_PROG_042D                   0000042D
+_MAIN_PROG_0431                   00000431
+_MAIN_PROG_0437                   00000437
+_MAIN_PROG_0438                   00000438
+_MAIN_PROG_043C                   0000043C
+_MAIN_PROG_0442                   00000442
+_MAIN_PROG_0443                   00000443
+_MAIN_PROG_0447                   00000447
 _MAIN_PROG_046C                   0000046C
-_MAIN_PROG_046E                   0000046E
-_MAIN_PROG_0470                   00000470
-_MAIN_PROG_047A                   0000047A
+_MAIN_PROG_046D                   0000046D
+_MAIN_PROG_0471                   00000471
+_MAIN_PROG_0477                   00000477
+_MAIN_PROG_0478                   00000478
 _MAIN_PROG_047C                   0000047C
-_MAIN_PROG_047E                   0000047E
-_MAIN_PROG_0480                   00000480
+_MAIN_PROG_0482                   00000482
+_MAIN_PROG_0483                   00000483
+_MAIN_PROG_0487                   00000487
+_MAIN_PROG_048D                   0000048D
+_MAIN_PROG_048E                   0000048E
+_MAIN_PROG_0492                   00000492
+_MAIN_PROG_0498                   00000498
+_MAIN_PROG_0499                   00000499
 _MAIN_PROG_049D                   0000049D
-_MAIN_PROG_049F                   0000049F
+_MAIN_PROG_04A3                   000004A3
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 80
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+_MAIN_PROG_04A4                   000004A4
+_MAIN_PROG_04A8                   000004A8
+_MAIN_PROG_04AE                   000004AE
+_MAIN_PROG_04AF                   000004AF
+_MAIN_PROG_04B3                   000004B3
+_MAIN_PROG_04BC                   000004BC
+_MAIN_PROG_04BD                   000004BD
+_MAIN_PROG_04C1                   000004C1
+_MAIN_PROG_04C7                   000004C7
+_MAIN_PROG_04C8                   000004C8
+_MAIN_PROG_04CC                   000004CC
+_MAIN_PROG_04D2                   000004D2
+_MAIN_PROG_04D3                   000004D3
+_MAIN_PROG_04D7                   000004D7
+_MAIN_PROG_04DD                   000004DD
+_MAIN_PROG_04DE                   000004DE
+_MAIN_PROG_04E2                   000004E2
+_MAIN_PROG_04E8                   000004E8
+_MAIN_PROG_04E9                   000004E9
+_MAIN_PROG_04ED                   000004ED
+_MAIN_PROG_04F3                   000004F3
+_MAIN_PROG_04F4                   000004F4
+_MAIN_PROG_04F8                   000004F8
+_MAIN_PROG_04FE                   000004FE
+_MAIN_PROG_04FF                   000004FF
+_MAIN_PROG_0503                   00000503
+_MAIN_PROG_0509                   00000509
+_MAIN_PROG_050A                   0000050A
+_MAIN_PROG_050E                   0000050E
+_MAIN_PROG_0532                   00000532
+_MAIN_PROG_0534                   00000534
+_MAIN_PROG_0536                   00000536
+_MAIN_PROG_0538                   00000538
+_MAIN_PROG_0542                   00000542
+_MAIN_PROG_0544                   00000544
+_MAIN_PROG_0546                   00000546
+_MAIN_PROG_0548                   00000548
+_MAIN_PROG_0552                   00000552
+_MAIN_PROG_0554                   00000554
+_MAIN_PROG_0556                   00000556
+_MAIN_PROG_0558                   00000558
+_MAIN_PROG_0562                   00000562
+_MAIN_PROG_0564                   00000564
+_MAIN_PROG_0566                   00000566
+_MAIN_PROG_0568                   00000568
+_MAIN_PROG_0572                   00000572
+_MAIN_PROG_0574                   00000574
+_MAIN_PROG_0576                   00000576
+_MAIN_PROG_0578                   00000578
+_MAIN_PROG_0590                   00000590
+_MAIN_PROG_0592                   00000592
 _PWRTE_OFF                        00003FFF
 _PWRTE_ON                         00003FF7
+MPASM 5.87                          MAIN.ASM   6-6-2020  2:35:57         PAGE 81
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
 _RC_OSC                           00003FFF
 _WDTE_OFF                         00003FFB
 _WDTE_ON                          00003FFF
@@ -4256,7 +4700,7 @@ __16F877A                         00000001
 __DEBUG                           
 
 Errors   :     0
-Warnings :    43 reported,     0 suppressed
+Warnings :    42 reported,     0 suppressed
 Messages :    49 reported,     0 suppressed
 
 
